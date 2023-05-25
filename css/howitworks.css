@@ -1,0 +1,22 @@
+*{
+    padding-left: 10px;
+    padding-right: 0;
+    
+}
+.con{
+    display: inline-block;
+    
+}
+img{
+    height: 400px;
+    float: right;
+   
+
+}
+.first{
+    width: ;
+}
+.cont{
+    justify-content: space-around;
+    
+}
