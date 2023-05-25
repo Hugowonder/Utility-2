@@ -41,50 +41,52 @@ header {
 .links a:not(icon):hover{
     background-color: orangered;
     color: white;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
-    .below__header{
-        background-image: url('../img/denis-degioanni-9wH624ALFQA-unsplash\ \(2\).jpg');
-        height: 400px;
-        display: flex;
-        align-items: center;
-    }
+.below__header{
+    background-image: url('../img/denis-degioanni-9wH624ALFQA-unsplash\ \(2\).jpg');
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
 
-    .form__container{
-        height: 350px;
-        width: 400px;
-        background-color: white;
-        padding: 20px 30px;
-        margin-top: 5px;
-        margin-left: 20px;
-    }
+.form__container{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    padding: 20px 30px;
+     margin-top: 5px;
+    margin-left: 20px;
+}
    .form__container > p{
     color: orangered;
     font-weight: 400;
-   } 
+} 
 
-   .input_row{
+.input_row{
     margin: 10px auto;
-   }
-   .input_row form{
+}
+.input_row form{
     width: 400px;
-   }
-   .input_row p > select{
+}
+.input_row p > select{
     width: 100%;
     padding: 8px 10px;
-   }
-   .input_row > label, .form__container > span, .input_row p > select{
+}
+.input_row > label, .form__container > span, .input_row p > select{
     color: #a1a199;
     font-weight: 500;
-   }
-   form button{
+}
+form button{
     background-color: orangered;
     color: white;
     border: 0;
     outline: 0;
     font-weight: 500;
     padding: 15px 18px;
-   }
-   form button:hover{
+}
+form button:hover{
     background-color: rgba(255, 68, 0, 0.749);
-   }
+    cursor: pointer;
+}
