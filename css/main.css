@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* html{
+    scroll-behavior: smooth;
+} */
 
 html,body {
     height: 100vh;
@@ -43,7 +46,10 @@ header {
     color: white;
     font-weight: bold;
 }
-
+.links a.active{
+    background-color: orangered;
+    color: white;
+}
 .below__header{
     background-image: url('../img/denis-degioanni-9wH624ALFQA-unsplash\ \(2\).jpg');
     height: 400px;
@@ -111,6 +117,7 @@ form button:hover{
    
 }
 .service__options p{
+  display: flex;
   align-items: center;
   justify-content: flex-start;  
 }
@@ -156,3 +163,162 @@ form button:hover{
     height: 80px;
 
 }
+.env{
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/gray_jean.png');
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+.icon-feat{
+    color: orangered;
+    height: 90px;
+    width: 90px; 
+    border-radius: 50%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-right: 45%;
+    margin-left: 45%;
+}
+.icon-featured{
+    color: white;
+}
+.env h2{
+    text-align: center;
+    margin-top: 25px;
+    font-size: xx-large;
+}
+.env h4 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: large;
+    margin-bottom: 5px;
+    color: #a1a199;
+}
+.env h4>a {
+    color: orangered;
+}
+.im{
+    margin-top: 25px;
+    border-top: 0.5px solid #a1a199;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.im h3{
+    margin: 30px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100;
+}
+.im img{
+   height: 65px;
+    margin: 15px;
+}
+.abt{
+    display: flex;
+    background-color:black ;
+    height: 200px;
+}
+.abt .abt1{
+    width: 65%;
+    margin-right: 120px;
+}
+.abt .abt2{
+    margin-right: px;
+   
+}
+.abt1 h4 {
+    color: orangered;
+    font-size: larger;
+    font-weight: 900;
+    margin: 15px 20px;
+}
+.abt1 p {
+    color: #a1a199;
+    margin-left: 20px;
+}
+.abt1 a {
+    text-decoration: none;
+    color: white;
+}
+.abt1 a:hover{
+    text-decoration: underline;
+}
+.abt2 h5{
+padding-top: 15px;
+color: white;
+}
+.abt2 span {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    padding-bottom: 50px;
+}
+.abt2 #in{
+    color: #a1a199;
+    margin-top: 18px;
+}
+.abt2 p{
+    margin-top: 12px;
+}
+.abt2 p>i {
+    text-decoration: none;
+    color: orangered;
+}
+.abt2 p>a {
+    text-decoration: none;
+    color: white;
+}
+.abt2 p>a:hover{
+    text-decoration: underline;
+}
+.hold {
+    
+    display: flex; 
+   
+    
+} 
+ .abt2 .hold>a {
+    color: black;
+    margin: 6px;
+    height: 35px;
+    width: 35px; 
+    border-radius: 50%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+     
+}
+.abt2 .hold> i {
+    width: 100%;
+    height: 100%;
+}
+.abt2 .hold> i:hover{
+    background-color: blue;
+}
+.up__arrow{
+    background-color:orangered;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 25px;
+    position: fixed;
+    bottom: 0;
+    border: 0;
+    outline: none;
+    font-size: xx-large;
+}
+
+.up__arrow:hover{
+    cursor: pointer;
+    background-color: #00000095;
+}
+
+
