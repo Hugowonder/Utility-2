@@ -54,7 +54,7 @@ select__utility.addEventListener("change", function(evt){
 document.querySelectorAll('div.links a') .forEach((a)=>{
     
     a.addEventListener("click", function(e){
-        e.preventDefault();
+        // e.preventDefault();
         const link = e.target;
         console.log(link.classList);
 
